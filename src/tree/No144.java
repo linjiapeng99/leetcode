@@ -5,7 +5,7 @@ import java.util.List;
 
 //二叉树前序遍历
 public class No144 {
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public  List<Integer> preorderTraversal(TreeNode root) {
         List<Integer>list=new ArrayList<>();
         TreeNode curr = root;
         LinkedList<TreeNode>stack=new LinkedList<>();
